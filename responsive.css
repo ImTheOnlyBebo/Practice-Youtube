@@ -1,0 +1,62 @@
+@media screen and (max-width: 430px) {
+	body {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	
+	.flex-row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tableWrap,
+	table,
+	tr,
+	td,
+	.homeVid,
+	header.font,
+	footer {
+		margin: 0;
+		padding: 0;
+	}
+
+	.font h2 {
+		text-align: end;
+		margin-right: 5px;
+	}
+
+	.homeVid {
+		text-align: center;
+		text-align: -webkit-center;
+	}
+
+	iframe {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.cap3 h3 {
+		margin-left: 0;
+	}
+
+	.vidCap {
+		width: 9.375rem;
+	}
+
+	.scroll {
+		width: 45%;
+		right: 0;
+	}
+
+	.scrollDetail iframe {
+		width: 150px;
+		height: 9.375rem;
+	}
+
+	footer {
+		text-align: center;
+		color: whitesmoke;
+	}
+}
