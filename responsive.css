@@ -1,9 +1,6 @@
 @media screen and (max-width: 430px) {
-	body {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		width: 100%;
+	nav {
+		left: 5%;
 	}
 	
 	.flex-row {
@@ -22,7 +19,17 @@
 		padding: 0;
 	}
 
-	.font h2 {
+	tr {
+		display: flex;
+		flex-direction: column;
+	}
+
+	table {
+		width: 100%;
+		text-align: center;
+	}
+
+	.font h2, .add {
 		text-align: end;
 		margin-right: 5px;
 	}
@@ -41,7 +48,7 @@
 		margin-left: 0;
 	}
 
-	.vidCap {
+	.homeVid .vidCap {
 		width: 9.375rem;
 	}
 
@@ -58,5 +65,51 @@
 	footer {
 		text-align: center;
 		color: whitesmoke;
+		padding-top: 1.5625rem;
+	}
+
+	.page-table {
+		margin-top: 80px;
+	}
+
+	.pageVid > .VidCap {
+		width: 100%;
+	}
+
+	.pageVid iframe {
+		width: 80%;
+	}
+
+	.wrap {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.wrap form {
+		margin: 5% 5% 0% 5%;
+	}
+
+	.dot {
+		top: 2px;
+  	left: 2%;
+	}
+
+	 input[type=submit] {
+		margin: 2% 30%;
+	}
+
+	.sHead {
+		margin-top: 20%;
+	}
+
+	.sVid {
+		margin: 0 2%;
+		text-align: center;
+	}
+
+	.sVid iframe {
+		width: 95%;
+		height: 18.75rem;
 	}
 }
