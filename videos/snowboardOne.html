@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Practice Youtube</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+	<nav>
+			<button class="btn"><a href="/pages/snowboard.html">Snowboarding</a></button>
+			<div class="dropdown">
+				<button class="btn" style="border-left: 1px solid black;">
+					<i class="fa-solid fa-angles-down"></i>
+				</button>
+				<div class="dropdownContent">
+					<a href="/index.html">Home</a>
+					<a href="/videos/snowboardOne.html">Travis Rice: A Good Winter</a>
+					<a href="/videos/snowTwo.html">Cardboard Snowboard</a>
+					<a href="/videos/snowThree.html">Casey Wilax Japan Trip</a>
+					<a href="/videos/snowFour.html">Zeb Powell</a>
+					<a href="/videos/snowFive.html">Zeb Powell`s Long Board</a>
+					<a href="/videos/snowSix.html">Whats Your Butter?</a>
+				</div>
+			</div>
+
+	</nav>
+	<div class="sHead">
+	<h1><u>Travis Rice: A Good Winter</u></h1>
+	</div>
+	<div class="sVid">
+	<iframe width="1300" height="600" src="https://www.youtube.com/embed/Gm2gLbsahB8?si=tVRcnbHJkp6qKqhN&amp;start=191"
+		title="YouTube video player" frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		allowfullscreen></iframe>
+	</div>
+	<div class="pgGraph">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent tristique magna sit. Id nibh tortor id aliquet lectus proin. Elit scelerisque mauris pellentesque pulvinar. Convallis convallis tellus id interdum velit. Est pellentesque elit ullamcorper dignissim cras. Diam in arcu cursus euismod quis viverra nibh cras. Convallis a cras semper auctor neque vitae tempus. Purus semper eget duis at tellus. Amet consectetur adipiscing elit pellentesque habitant. Blandit massa enim nec dui nunc mattis. At ultrices mi tempus imperdiet. Pharetra convallis posuere morbi leo urna molestie at.
+			<span id="dots">...</span>
+			<span id="more">
+			Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Nam aliquam sem et tortor. Parturient montes nascetur ridiculus mus mauris vitae. At quis risus sed vulputate. Nullam non nisi est sit amet facilisis magna. Lacus vestibulum sed arcu non. Accumsan in nisl nisi scelerisque eu. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Consequat mauris nunc congue nisi vitae suscipit. Odio tempor orci dapibus ultrices in iaculis nunc. Sed viverra tellus in hac habitasse platea dictumst. Consectetur libero id faucibus nisl tincidunt eget nullam. Interdum velit laoreet id donec ultrices tincidunt arcu. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Ipsum faucibus vitae aliquet nec.
+			
+			Elementum pulvinar etiam non quam lacus suspendisse. Luctus accumsan tortor posuere ac ut consequat semper. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Ornare quam viverra orci sagittis eu volutpat odio facilisis. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Id faucibus nisl tincidunt eget nullam. Tortor condimentum lacinia quis vel eros donec. Aliquet nibh praesent tristique magna. Erat velit scelerisque in dictum non consectetur. Est velit egestas dui id ornare. Mattis pellentesque id nibh tortor. Nisi est sit amet facilisis magna etiam. Tincidunt eget nullam non nisi est. Odio eu feugiat pretium nibh ipsum consequat. Consequat mauris nunc congue nisi vitae suscipit. Quis risus sed vulputate odio ut enim blandit.
+			</span>
+		</p>
+		<div class="readmore">
+		<button onclick="myFunction()" id="myBtn">Read more</button>
+		</div>
+	</div>
+	<hr>
+<footer>
+	&copy: Copyright"
+</footer>
+	<script src="" async defer></script>
+	<script src="https://kit.fontawesome.com/bfee64afc7.js" crossorigin="anonymous"></script>
+	<script>
+		function myFunction() {
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("myBtn");
+		
+			if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "Read more"; 
+				moreText.style.display = "none";
+			} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "Read less"; 
+				moreText.style.display = "inline";
+			}
+		}
+		</script>
+</body>
+
+</html>

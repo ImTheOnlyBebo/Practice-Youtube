@@ -1,0 +1,387 @@
+body{
+	background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+	width: 100vw;
+}
+
+nav{
+	position: fixed;
+	left: 8%;
+	top: 2%;
+	z-index: 100;
+	opacity: 0.93;
+}
+
+.btn, .Ibtn{
+  background-color: #746957;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 8px;
+}
+
+.btn a{
+	color: #f4dcb7;
+	text-decoration: none;
+}
+
+.dropdown{
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdownContent{
+  display: none;
+  position: absolute;
+  background-color: #746957;
+  min-width: 160px;
+  z-index: 1;
+	border-radius: 10px;
+}
+
+.dropdownContent a{
+	color: #f4dcb7;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+	border-radius: 10px;
+}
+
+.dropdownContent a:hover{
+	background-color: #9e8f77;
+}
+
+.dropdown:hover .dropdownContent{
+  display: block;
+}
+
+.btn:hover, .dropdown:hover .btn{
+  background-color: #9e8f77;
+}
+
+ .Idropdown:hover .IdropdownContent{
+	display: block;
+}
+
+header{
+	position: relative;
+	margin: 4% 0% 1% 6%;
+	color:#f4dcb7;
+}
+
+.tableWrap{
+	width: 75%;
+	height: 80%;
+	display: inline;
+	padding-left: 2%;
+}
+
+.tOne{
+	display: inline;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+iframe{
+	border-radius: 20px;
+	border: 3px solid black;
+}
+
+.featDriftVid, .featSnowVid, .featNatureVid{
+	margin: 18px 0px;
+}
+
+.featNatureVid{
+	margin-left:  50%;
+	padding: 1% 1%;
+}
+
+.cap3 h3{
+	margin-left: 80%;
+}
+
+.scroll{
+	display: flex;
+	flex-direction: column;
+	float: inline-end;
+	height: 85vh;
+	width: 20%;
+	right: 5%;
+	position: relative;
+	overflow-y: hidden;
+}
+
+
+.scrollDetail{
+	bottom: 5%;
+	margin: 0% 8%;
+	width: 80%;
+	position: sticky;
+}
+
+.scrollCap{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.scrollCap a{
+	color: #f4dcb7;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+}
+
+.primary{
+	animation: vidScroll 50s linear infinite;
+	margin-bottom: 5px;
+}
+
+@keyframes vidScroll{
+	0%{transform: translate(0, 0%)}
+	100%{transform: translate(0, -100%)}
+}
+
+.secondary{
+	animation: vidScroll2 50s linear infinite;
+}
+
+@keyframes vidScroll2{
+	0%{transform: translate(0, 100%)}
+	100%{transform: translate(0, 0%)}
+}
+
+
+.homeVid:hover, .pageVid:hover{
+	transform: scale(1.1, 1.1);
+	/* transform: rotate(15deg); */
+}
+
+/* Collections */
+
+.pageVid{
+	margin-bottom: 6%;
+}
+
+.vidCap {
+	text-align: center;
+
+}
+
+.vidCap a{
+	color: #f4dcb7;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+}
+
+/* Single Video Pages */
+
+.sHead{
+	margin: 5% 0% 1% 8%;
+	font-family: "Raleway", sans-serif;
+	color: #f4dcb7;
+}
+
+.sVid{
+	margin-left: 10%;
+}
+
+.pgGraph{
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+	color: #e8d2b2;
+}
+
+/* Form */
+
+.readmore button{
+	margin: 0% 0% 5% 70%;
+	background-color: #746957;
+	color: #f4dcb7;
+	border-radius: 10px;
+	font-size: 18px;
+	padding: 5px;
+	box-shadow: 0 9px #727272;
+}
+
+.readmore:active button{
+	transform: translateY(4px);
+	box-shadow: 0 5px #666;
+}
+
+.wrap{
+	width: 50%;
+	padding: 3% 15%;
+	margin: 1% 10% 5% 10%;
+	align-items: center;
+	border-top: 4px dotted black;
+}
+
+form{
+	margin: 0% 10% 0% 10%;
+	border-left: 7px double black;
+	border-right: 7px double black;
+	padding: 0 5%;
+}
+
+form .lab{
+	color: #f4dcb7;
+	font-family: "Raleway", sans-serif;
+	font-size: 25px;
+}
+
+.drop{
+	width: 100%;
+	padding:10px 0px 10px 10px;
+	border-radius: 12px;
+	background-color: #d2b48c;
+	border: 2px solid black;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+}
+
+.drop:focus{
+	box-shadow: -6px -8px 30px black; 
+}
+
+input[type=file]{
+	display: none;
+	margin-left: 10px;
+}
+
+.customFile{
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	padding: 5px 10px;
+	border-radius: 12px;
+	border: 2px solid #5d5d5d;
+	margin-left: 10px;
+	background-color: #9c9486;
+	color: #f4dcb7;
+}
+
+.fa-solid{
+	padding-right: 3px;
+}
+
+.customFile:hover{
+	box-shadow: 4px 5px 20px black; 
+}
+
+.fileCap{
+	margin: 7% 1% 7% 5%;
+	border-bottom: 2px solid #f4dcb7;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	color: #f4dcb7;
+}
+
+input[type=text]{
+	width: 100%;
+	padding:10px 0px;
+	border-radius: 12px;
+	background-color: #d2b48c;
+	border: 2px solid black;
+}
+
+input[type=text]::placeholder{
+	font-family: "Raleway", sans-serif;
+	opacity: 0.7;
+}
+
+input[type=text]:focus{
+	box-shadow: 6px 8px 30px black; 
+}
+
+textarea{
+	width: 100%;
+	padding: 10px 0px;
+	border-radius: 12px;
+	background-color: #d2b48c;
+	border: 2px solid black;
+}
+
+textarea:focus{
+	box-shadow: 6px 8px 30px black; 
+}
+
+textarea::placeholder{
+	opacity: 0.7;
+}
+
+.cCan {
+  display: block;
+  position: relative;
+  padding-left: 10%;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.cCan input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.dot {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  height: 20px;
+  width: 20px;
+  background-color: #d2b48c;
+  border-radius: 50%;
+	border: 1px solid black;
+}
+
+.cCan:hover input ~ .dot {
+  background-color: #ccc;
+}
+
+.cCan input:checked ~ .dot {
+  background-color: #746957;
+}
+
+.dot:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.cCan input:checked ~ .dot:after {
+  display: block;
+}
+
+.cCan .dot:after {
+	top: 6px;
+ left: 6px;
+ width: 8px;
+ height: 8px;
+ border-radius: 50%;
+ background: #f4dcb7;
+}
+
+input[type=submit]{
+	color: #f4dcb7;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	margin: 2% 10%;
+	padding: 7px;
+	border-radius: 12px;
+	background-color: #746957;
+}
+
+input[type=submit]:hover{
+	box-shadow: 4px 5px 15px black; 
+}
+
+.font{
+  font-family: "Raleway", sans-serif;
+	font-size: 20px;
+}
+
+footer{
+	border-top: 3px solid black;
+	position: relative;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+	padding-top: 30px;
+}

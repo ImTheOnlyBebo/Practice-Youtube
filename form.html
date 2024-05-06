@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Practice Youtube</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/styles.css">
+</head>
+
+<nav>
+	<button class="btn font"><a href="/form.html">New Video</a></button>
+			<div class="dropdown">
+				<button class="btn" style="border-left: 1px solid black;">
+					<i class="fa-solid fa-angles-down"></i>
+				</button>
+				<div class="dropdownContent font">
+					<a  href="/index.html">Home</a>
+					<a href="/pages/drifting.html">Drifting</a>
+					<a href="/pages/snowboard.html">Snowboarding</a>
+					<a href="/pages/nature.html">Nature</a>
+				</div>
+			</div>
+
+</nav>
+<header>
+	<h1>Add New Video</h1>
+</header>
+	<br>
+	<div class="wrap">
+	<form target="_blank" method="post">
+		<label class="lab" for="title" value="title"><strong>Video Title</strong></label><br>
+		<input id="title" type="text" placeholder="Enter Title" size="25" required>
+
+		<br><br>
+
+		<label class="lab" for="description" value="description"><strong>Description</strong></label><br>
+		<textarea id="description" placeholder="Enter Description" rows="8" cols="25" required></textarea>
+
+		<br><br>
+		<span class="fileCap">Select File</span>
+		<label class="customFile" for="video">
+			<i class="fa-solid fa-arrow-right-to-bracket"></i>
+			<strong>Select</strong><br>
+			<input type="file" id="video" value="video" required>
+		</label>
+		
+		<br><br>
+		<select class="drop" id="video" required>
+			<option value="drifting">Drifting</option>
+			<option value="snowboarding">Snowboarding</option>
+			<option value="nature">Nature</option>
+			<option value="choose" selected disabled>Choose Collection</option>
+		</select>
+		<br>
+		<br>
+		<label class="lab cCan" for="public">
+			<input id="public" type="radio" name="how" value="public" required>
+			<soan class="dot"></soan>Public
+		</label>
+		<br>
+		<label class="lab cCan" for="private">
+			<input id="private" type="radio" name="how" value="private">
+			<soan class="dot"></soan>Private
+		</label>
+		
+		<input type="submit" value="Upload Video" required>
+	</form>
+	</div>
+
+	<script src="" async defer></script>
+	<script src="https://kit.fontawesome.com/bfee64afc7.js" crossorigin="anonymous"></script>
+	<hr>
+	<footer>
+		&copy: Copyright"
+	</footer>
+</body>
+
+</html>
