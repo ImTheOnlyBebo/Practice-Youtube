@@ -1,0 +1,115 @@
+@media screen and (max-width: 430px) {
+	nav {
+		left: 5%;
+	}
+	
+	.flex-row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tableWrap,
+	table,
+	tr,
+	td,
+	.homeVid,
+	header.font,
+	footer {
+		margin: 0;
+		padding: 0;
+	}
+
+	tr {
+		display: flex;
+		flex-direction: column;
+	}
+
+	table {
+		width: 100%;
+		text-align: center;
+	}
+
+	.font h2, .add {
+		text-align: end;
+		margin-right: 5px;
+	}
+
+	.homeVid {
+		text-align: center;
+		text-align: -webkit-center;
+	}
+
+	iframe {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.cap3 h3 {
+		margin-left: 0;
+	}
+
+	.homeVid .vidCap {
+		width: 9.375rem;
+	}
+
+	.scroll {
+		width: 45%;
+		right: 0;
+	}
+
+	.scrollDetail iframe {
+		width: 150px;
+		height: 9.375rem;
+	}
+
+	footer {
+		text-align: center;
+		color: whitesmoke;
+		padding-top: 1.5625rem;
+	}
+
+	.page-table {
+		margin-top: 80px;
+	}
+
+	.pageVid > .VidCap {
+		width: 100%;
+	}
+
+	.pageVid iframe {
+		width: 80%;
+	}
+
+	.wrap {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.wrap form {
+		margin: 5% 5% 0% 5%;
+	}
+
+	.dot {
+		top: 2px;
+  	left: 2%;
+	}
+
+	 input[type=submit] {
+		margin: 2% 30%;
+	}
+
+	.sHead {
+		margin-top: 20%;
+	}
+
+	.sVid {
+		margin: 0 2%;
+		text-align: center;
+	}
+
+	.sVid iframe {
+		width: 95%;
+		height: 18.75rem;
+	}
+}
